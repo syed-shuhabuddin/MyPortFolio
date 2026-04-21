@@ -11,7 +11,9 @@ function Hero() {
         Frontend Developer | React | Vite
       </motion.p>
 
-      <button className="btn">Download Resume</button>
+      <a href="/resume.pdf" download className="btn">
+        Download Resume
+      </a>
     </section>
   );
 }
